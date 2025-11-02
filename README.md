@@ -15,6 +15,22 @@ An automated system that collects the latest technology news from multiple RSS f
 ---
 
 
+## 🏗️ Project Structure
+
+```
+news_automation/
+├── main.py # Step 1: Parse RSS feeds and deduplicate
+├── summarize.py # Step 2: Summarize into short summary
+├── classification.py # Step 3: Classified news 
+├── vizualize.py # Step 3: Display/export data
+├── automation.py # Step 4: Automate tasks(yet to be implemented)
+├── poster.py # Step 5: Post to Telegram or Twitter
+│
+├── categorized_summary_updated_data.csv # Output of summarized data
+├── requirements.txt
+└── README.md
+
+```
 ---
 
 ## ⚙️ Installation
