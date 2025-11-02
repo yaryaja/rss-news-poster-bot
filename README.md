@@ -37,7 +37,7 @@ news_automation/
 
 ### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/<your-username>/news_automation.git
+git clone https://github.com/<yaryaja/news_automation.git
 cd news_automation
 
 ```
