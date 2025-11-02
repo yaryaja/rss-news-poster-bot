@@ -26,8 +26,11 @@ def read_rss_feed(feed_urls):
                 unique_articles.append({
                     "title": title,
                     "link": entry.link,
-                    "summary": entry.get("summary", "")
+                    "summary": entry.get("summary", ""),
+                    "published":entry.published
                 })
+         
+            
 
 rss_feed_url_1 ="https://techcrunch.com/feed" # Replace with a real RSS feed URL
 rss_feed_url_2="https://ir.thomsonreuters.com/rss/news-releases.xml"
